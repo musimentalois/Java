@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author oxane
+ *
+ */
+module Abstract {
+}

@@ -1,0 +1,31 @@
+package lois.rca;
+
+public class Rectangle {
+    int width;
+    int length;
+    public int getLength() {
+        return length;
+    }
+
+    public void setLength(int length) {
+        this.length = length;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    public void setWidth(int width) {
+        this.width = width;
+    }
+
+    public void sayName() {
+        System.out.println("I'm child class Rectangle");
+    }
+
+    public float calculateArea(float length,float width) {
+        float area = (length * width)*2;
+        return area;
+    }
+    
+}

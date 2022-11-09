@@ -1,0 +1,22 @@
+package lois.ac.rca;
+import shape;
+
+public class MainApp {
+    public static void main(String[] args) {
+        Shape shape = new Shape();
+        shape.sayName();
+        Shape sh = new Circle();
+        shape sq = new Square();
+        myRealName(sq);
+    }
+    public static void myRealName(Shape shape) {
+     
+      if(shape instanceof Circle) {  
+    	   shape.sayName();
+        Circle c = (Circle)shape;
+    }else {
+    	System.out.println("oh! I'm circle . I'm :"+ shape.getClass());
+    }
+
+}
+}

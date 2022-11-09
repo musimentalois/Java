@@ -1,0 +1,11 @@
+INDEX VERSION 1.131+/home/lois/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+3833247777.index
+3579276893.index
+430730568.index
+280210653.index
+1865797976.index
+2330004633.index
+1795895626.index
+2441488804.index
+2649436545.index
+1377876802.index

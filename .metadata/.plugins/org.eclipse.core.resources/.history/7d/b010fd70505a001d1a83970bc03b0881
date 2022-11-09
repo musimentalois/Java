@@ -1,0 +1,9 @@
+package java.sql;
+
+public class SQLException {
+
+	public void printStackTrace() {
+	
+	}
+
+}

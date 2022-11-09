@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package Collegebackend.lois;
+
+/**
+ * @author lois
+ *
+ */
+public class MysqlCon {
+
+}

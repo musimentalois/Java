@@ -1,0 +1,19 @@
+public class MainApp {
+    public static void main(String[] args) {
+        Shape shape = new Shape();
+        shape.sayName();
+        Shape sh = new Circle();
+        Shape sq = new Square();
+        myRealName(sh);
+    }
+    public static void myRealName(Shape shape) {
+        if(shape instanceof Circle) {
+            shape.sayName();
+            Circle c = (Circle)shape;
+        } else {
+            System.out.println("Oh! I'm circle. I'm: " + shape.getClass());
+        }
+
+    }
+
+}

@@ -1,0 +1,11 @@
+package java.sql;
+
+import college.SQLDatabaseConnection;
+
+public class SQLException extends SQLDatabaseConnection {
+
+	public void printStackTrace() {
+	
+	}
+
+}
